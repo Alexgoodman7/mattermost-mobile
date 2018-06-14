@@ -71,7 +71,7 @@ if (Platform.OS === 'ios') {
 
         const msg = data.message || '';
 
-        if (this.logToConsole) {
+        if (Client4.logToConsole) {
             console.error(msg); // eslint-disable-line no-console
         }
 
